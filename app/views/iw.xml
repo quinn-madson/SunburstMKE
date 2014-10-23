@@ -1,0 +1,25 @@
+<Alloy>
+	<View id="Wrapper">
+		<!-- this is the main view or wrapper for this screen -->
+		<Require type="widget" src="com.chariti.navigationBar" id="NavigationBar" image="logo.png" />
+		<!-- this requires the widget code that generates the navbar for us -->
+		<View id="container">
+			<View class="inner">
+				<View class="gap" />
+				<View id="logoWrapper">
+					<ImageView id="iw"></ImageView>
+				</View>
+			</View>
+			<View id="controls">
+				<View class="inner">
+					<View class="nudge"></View>
+					<Button id="radar" class="orangeButton">Radar</Button>
+					<!-- <Button id="news" class="orangeButton">News</Button> -->
+				</View>
+			</View>
+			<View id="streamToggle">
+				<ImageView id="streamToggleButton">Play</ImageView>
+			</View>
+		</View>
+	</View>
+</Alloy>

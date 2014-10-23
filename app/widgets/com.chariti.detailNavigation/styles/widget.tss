@@ -1,0 +1,19 @@
+"#Wrapper": {
+	width: "66dp",
+	height: "12dp",
+	top: "17dp"
+},
+"#arrowUp": {
+	width: "22dp",
+	height: "12dp",
+	top: "0dp",
+	left: "0dp",
+	preventDefaultImage: true
+},
+"#arrowDown": {
+	width: "22dp",
+	height: "12dp",
+	top: "0dp",
+	right: "0dp",
+	preventDefaultImage: true
+}

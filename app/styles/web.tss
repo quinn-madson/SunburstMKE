@@ -1,0 +1,31 @@
+"#Wrapper": {
+	layout: "vertical",
+	backgroundColor: "#111"
+},
+"#container": {
+	top: "0dp",
+	backgroundColor: "#000"
+},
+"#toolbar": {
+	visible: false,
+	backgroundColor: "#FFF",
+	height: "44dp",
+	layout: "horizontal",
+	bottom: "0dp"
+},
+"#border": {
+	top: "0dp",
+	height: "1dp",
+	width: Ti.UI.FILL,
+	backgroundColor: "#000",
+	opacity: 0.2
+},
+".container": {
+	left: "0dp",
+	height: "44dp"
+},
+".button": {
+	width: "28dp",
+	height: "28dp",
+	touchEnabled: false
+}

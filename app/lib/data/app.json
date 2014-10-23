@@ -1,0 +1,54 @@
+{
+	"id": "SunburstMKE.001",
+	"version": "0.1",
+	"minimumVersion": "0.1",
+	"configurationUrl": "",
+	"legal": {
+		"copyright": "Copyright ‌2013 First Snow, LLC"
+	},
+	"settings": {
+		"share": "Check out this great content",
+		"notifications": {
+			"enabled": false,
+			"provider": "UA",
+			"key": "AuKi5Qn3QKGTno3xX9ECYA",
+			"secret": "s-RDQejhRwmx-j4DCaXPMw"
+		},
+		"colors": {
+			"primary": "#e93c19",
+			"secondary": "#569BBE"
+		},
+		"useSlideMenu": true
+	},
+	"manifest": [
+		"http://chariti.mobi/app/logo.png",
+		"http://chariti.mobi/app/logo@2x.png"
+	],
+	"tabs": [
+		{
+			"menuHeader": "Sunburst MKE",
+			"title": "Radio Milwaukee",
+			"type": "radio_milwaukee",
+			"image": "radioMke",
+			"tabletSupport": false
+		},
+		{
+			"title": "WUWM",
+			"type": "wuwm",
+			"image": "wuwm",
+			"tabletSupport": false
+		},
+		{
+			"title": "WMSE",
+			"type": "wmse",
+			"image": "wmse",
+			"tabletSupport": false
+		},
+		{
+			"title": "Innovative Weather",
+			"type": "iw",
+			"image": "iw",
+			"tabletSupport": false
+		}
+	]
+}

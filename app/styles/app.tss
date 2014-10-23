@@ -1,0 +1,68 @@
+"Window[platform=ios]": {
+	statusBarStyle: Ti.UI.iPhone.StatusBar.OPAQUE_BLACK
+},
+"TableView": {
+	scrollsToTop: false
+},
+"WebView": {
+	scrollsToTop: false
+},
+"TextArea": {
+	scrollsToTop: false
+},
+"ScrollView": {
+	scrollsToTop: false
+},
+
+".orangeButton": {
+	width: Ti.UI.FILL,
+	height: "40dp",
+	top: "10dp",
+	style: Ti.UI.iPhone.SystemButtonStyle.PLAIN,
+	backgroundColor: "#e93c19",
+	borderWidth: "1dp",
+	borderColor: "#FF5735",
+	borderRadius: "5dp",
+	font: {
+		fontSize: "32dp",
+		fontFamily: Alloy.CFG.fonts.normal,
+		fontWeight: "bold"
+	}
+},
+
+"Label": {
+	font: {
+		fontSize: "20dp",
+		fontFamily: Alloy.CFG.fonts.normal
+	}
+}
+
+".inner": {
+	left: "10dp",
+	right: "10dp",
+	top: "10dp",
+	layout: "vertical"
+},
+
+"#logoWrapper": {
+	borderRadius: "10dp",
+	borderColor: "#fff",
+	backgroundColor: "#fff",
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE
+},
+
+"#streamToggle": {
+	bottom: "124dp",
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL
+},
+
+"#streamToggleButton": {
+	image: "/images/play.png"
+},
+
+".nudge": {
+	height: "20dp",
+	width: Ti.UI.FILL
+}

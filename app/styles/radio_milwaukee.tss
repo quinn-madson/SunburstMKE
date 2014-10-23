@@ -1,0 +1,25 @@
+"#Wrapper": {
+	layout: "vertical",
+	backgroundImage: "/textures/fabric_plaid.png"
+},
+
+"#container": {
+	top: "0dp",
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL
+},
+".inner": {
+	height: Ti.UI.SIZE
+},
+
+"#controls": {
+	bottom: 0,
+	left: 0,
+	backgroundImage: "/textures/cartographer.png",
+	width: Ti.UI.FILL,
+	height: "156dp"
+},
+
+"#radioMke": {
+	image: "/images/RadioMilwaukee.png"
+}

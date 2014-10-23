@@ -1,0 +1,12 @@
+"#Wrapper": {
+	width: "200dp",
+	top: "0dp",
+	left: "-200dp",
+	backgroundColor: "#111"
+},
+
+"#Tabs": {
+	top: "0dp",
+	backgroundImage: WPATH('/images/sunburst.png'),
+	separatorColor: "transparent"
+}

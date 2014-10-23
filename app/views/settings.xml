@@ -1,0 +1,14 @@
+<Alloy>
+	<View id="Wrapper">
+		<Require type="widget" src="com.chariti.navigationBar" id="NavigationBar" image="logo.png" />
+		<ScrollView id="container">
+			<ImageView image="/images/gfk.png"></ImageView>
+			<Label>Made with love for MKE by Ghostface Koder. This app features a sculpture by Mark di Suvero in O'Donnell Park titled "The Calling". Photography of "The Calling" contributed by CJ Schmit Photography under the Creative Commons license (BY-NC-ND 2.0).</Label>
+			<View class="inner">				
+				<Button id="cjs" class="orangeButton">CJ Schmidt Photography</Button>
+				<Button id="calling" class="orangeButton">The Calling (Wikipedia)</Button>
+				<Button id="logs" class="orangeButton">Send App Logs</Button>
+			</View>
+		</ScrollView>
+	</View>
+</Alloy>
